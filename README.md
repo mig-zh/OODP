@@ -1,7 +1,7 @@
 # Object-Oriented Dynamics Predictor (OODP)
 This repository implements the main algorithm of OODP described in the following paper:
   * Guangxiang Zhu, Zhiao Huang, Chongjie Zhang, **"Object-Oriented Dynamics Predictor**",
-    _In Advances in Neural Information Processing Systems (NIPS)_, 2018.
+    _Conference on Neural Information Processing Systems (NIPS)_, 2018.
 
 # Requirements
 - TensorFlow >= 1.4.0
