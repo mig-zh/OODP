@@ -32,5 +32,5 @@ Note that we have already provided the checkpoint file containing a model pre-tr
 
 # Extension
 OODP presents an object-oriented learning framework, which decomposes the environment into objects and predicts the dynamics of objects conditioned on both actions and object-to-object relations. This framework is the fundamental building block for generalizable and interpretable dynamics learning and can be further extended to broad domains by exploiting more information to relax some assumptions. For example, MAOP extends OODP to more complex environments with a dynamic background, as described in the following paper.
-  * Guangxiang Zhu*, Jianhao Wang*, Zhizhou Ren*, and Chongjie Zhang, **"Object-Oriented Model Learning through Multi-Level Abstraction**", 
+  * Guangxiang Zhu*, Jianhao Wang*, Zhizhou Ren*, and Chongjie Zhang, **"Object-Oriented Dynamics Learning through Multi-Level Abstraction**", 
    _Deep RL Workshop NIPS 2018_.
