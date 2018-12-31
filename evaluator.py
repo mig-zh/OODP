@@ -20,8 +20,8 @@ class Evaluator():
 		self.a = tf.placeholder(tf.float32, shape=(None,None,None,3))
 		self.b = tf.placeholder(tf.float32, shape=(None,None,None,1))
 
-		self.xy = tf.nn.depthwise_conv2d(self.a, self.b, (1,1,1,1), 'VALID')
-		self.x2 = tf.nn.depthwise_conv2d(self.a**2, (self.b*0) + 1, (1,1,1,1), 'VALID')
+		self.xy = tf.nn.conv2d(self.a, self.b, (1,1,1,1), 'VALID')
+		self.x2 = tf.nn.conv2d(self.a**2, (self.b*0) + 1, (1,1,1,1), 'VALID')
 		self.y2 = tf.reduce_sum(self.b**2, keep_dims=True)
 		self.ans = self.x2 + self.y2 - 2*self.xy
 		self.res = tf.reduce_sum(self.ans, axis=3)[0]
