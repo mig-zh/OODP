@@ -31,6 +31,6 @@ $ tensorboard --logdir=summary_test
 Note that we have already provided the checkpoint file containing a model pre-trained with default parameters in `results/`, so you can directly run the above commands before training.
 
 # Extension
-OODP presents an object-oriented learning framework, which decomposes the environment into objects and predicts the dynamics of objects conditioned on both actions and object-to-object relations. This framework is the fundamental building block for generalizable and interpretable dynamics learning and can be further extended to broad domains by exploiting more information to relax some assumptions. For example, MAOP extends OODP to more complex environments with a dynamic background, as described in the following paper.
+OODP presents an object-oriented learning framework, which decomposes the environment into objects and predicts the dynamics of objects conditioned on both actions and object-to-object relations. This framework is the fundamental building block for generalizable and interpretable dynamics learning and can be further extended to broad domains by exploiting more information to relax some assumptions. For example, MAOP extends OODP to more complex environments with a dynamic background, as described in the following paper (https://arxiv.org/abs/1904.07482).
   * Guangxiang Zhu*, Jianhao Wang*, Zhizhou Ren*, and Chongjie Zhang, **"Object-Oriented Dynamics Learning through Multi-Level Abstraction**", 
    _Deep RL Workshop NIPS 2018_.
